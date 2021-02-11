@@ -26,6 +26,7 @@ index.app.listen(4000,()=>{
 
 // function logger(req,res,next){
 //     console.log('log');
+//     res.sendStatus(200).json({message:'ok'})
 //     next();
 //     return console.log("logger");
 // }

@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const upload = require('../Storage/storage');
+const upload = require('../Storage/storage');       
 const image = require('../Model/index');
 //Api to upload photo on Database
 router.post('/',upload.store.single('ImageUpload'),async (req,res)=>{
